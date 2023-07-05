@@ -1,0 +1,27 @@
+#title{
+    text-decoration: underline;
+}
+
+.my {
+    color: slateblue;
+  }
+
+  .my+p{
+    color:aqua
+   }
+  /*.sect2 strong{
+    color:yellow
+  }
+  .sect2 *{
+    border: 2px solid red
+
+  } */
+  .sect2>strong{
+    background-color: yellow;
+  }
+  .sect2>*{
+    border: 2px solid red;
+  }
+  .my~p,.sect3 p{
+    background-color: beige;
+  }
